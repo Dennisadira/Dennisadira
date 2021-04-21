@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Dennisadira
-- 👀 I’m interested in everything microservices
+- 👀 I’m interested in sofware egnineering 
 - 🌱 I’m currently learning mircoservice design patterns
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me dennisadira@gmail.com
