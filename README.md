@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Dennisadira
 - 👀 I’m interested in sofware egnineering 
-- 🌱 I’m currently learning mircoservice design patterns
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently working on different mircoservice design patterns
+- 💞️ I’m looking to collaborate on ...the above
 - 📫 How to reach me dennisadira@gmail.com
 
 <!---
