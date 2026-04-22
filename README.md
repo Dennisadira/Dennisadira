@@ -14,7 +14,7 @@ Technologist and engineering manager. I build the AI/ML layer of production lend
 ### Open source
 
 - [`mudler/LocalAI#9411`](https://github.com/mudler/LocalAI/pull/9411) — `fix(backend-monitor)`: accept `model` as a query parameter so the endpoint is Swagger/OpenAPI-compatible. **Merged.**
-- [`mark3labs/mcp-go#808`](https://github.com/mark3labs/mcp-go/pull/808) — OAuth: extract the RFC 9728 Protected Resource Metadata URL from `WWW-Authenticate`, with origin validation and §3.3/§7.3 resource-binding checks. Closed after the maintainer consolidated concurrent efforts; origin-validation and resource-binding approach called out for upstream inclusion.
+- [`mark3labs/mcp-go#808`](https://github.com/mark3labs/mcp-go/pull/808) — OAuth: extract the RFC 9728 Protected Resource Metadata URL from `WWW-Authenticate`, with origin validation and §3.3/§7.3 resource-binding checks. Closed after the maintainer consolidated concurrent efforts into [#730](https://github.com/mark3labs/mcp-go/pull/730); the origin-validation and resource-binding checks were adopted upstream in that merge.
 
 ### Selected public projects
 
