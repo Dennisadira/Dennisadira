@@ -11,10 +11,9 @@ Technologist and engineering manager. I build the AI/ML layer of production lend
 - **AML transaction monitoring** — velocity, structuring, and counterparty-pattern anomaly detection on event-driven pipelines.
 - **Biometric identity** — face, fingerprint, and contactless fingerprint acquisition with multi-provider matching and government-database verification.
 
-### Open source
+### Open source Contributions
 
-- [`mudler/LocalAI#9411`](https://github.com/mudler/LocalAI/pull/9411) — `fix(backend-monitor)`: accept `model` as a query parameter so the endpoint is Swagger/OpenAPI-compatible. **Merged.**
-
+-https://github.com/mudler/LocalAI
 
 ### Selected public projects
 
