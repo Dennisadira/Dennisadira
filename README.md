@@ -23,12 +23,12 @@
 
   ### Open source
   
-  | Repo | PR | Description | Status |
-  |------|----|-------------|--------|
-  | [mudler/LocalAI](https://github.com/mudler/LocalAI) | [#9411](https://github.com/mudler/LocalAI/pull/9411) | `fix(backend-monitor)`: accept `model` as query parameter for Swagger/OpenAPI compatibility | Open — awaiting review
-  |
-  | [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | [#808](https://github.com/mark3labs/mcp-go/pull/808) | `feat(oauth)`: extract Protected Resource Metadata URL from `WWW-Authenticate` per RFC 9728 §5.1 | Open —
-  awaiting review |
+ **[mudler/LocalAI](https://github.com/mudler/LocalAI)**
+  Local inference server for running open-source LLMs and AI models privately, without cloud dependencies.
+
+  **[mark3labs/mcp-go](https://github.com/mark3labs/mcp-go)**
+  Go SDK for building Model Context Protocol servers and clients, enabling LLM tool integration.
+
  
   ---
 
