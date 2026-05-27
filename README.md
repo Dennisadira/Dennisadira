@@ -1,31 +1,56 @@
-## Adira Denis Muhando
+---
+  ## Adira Denis Muhando
 
-Technologist and engineering manager. I build the AI/ML layer of production lending platforms for African markets — credit scoring, LLM-powered qualitative analysis, fraud detection on AI-generated KYC documents, AML transaction monitoring.
+  I build production AI and financial systems. My focus is credit intelligence, identity infrastructure, fraud detection, and AML monitoring.
+  
+  ---
 
-10+ years shipping production systems across financial platforms in Africa. Led 9 engineers on a national-scale biometric identity platform that processed 10M+ activations in 6 months. Architected a multi-modal biometric platform (face, fingerprint, iris) for a tier-1 East African bank. Spent 4+ years building banking-transaction systems deployed across 21 African countries.
+  ### What I build
 
-### What I work on
+  **Credit intelligence**
+  Bank-statement ingestion and feature extraction into a calibrated LightGBM scoring model, with an LLM overlay for qualitative analysis where numbers fall short.
 
-- **ML credit scoring** — bank-statement feature extraction → trained model → calibrated risk scores over REST. LLM layer reasons about borrower context where numbers fall short.
-- **KYC document fraud detection** — classifies submitted IDs as genuine vs. AI-generated via stamp detection, document structure, visual artifacts, metadata consistency.
-- **AML transaction monitoring** — velocity, structuring, and counterparty-pattern anomaly detection on event-driven pipelines.
-- **Biometric identity** — face, fingerprint, and contactless fingerprint acquisition with multi-provider matching and government-database verification.
+  **KYC fraud detection**
+  Classifies submitted identity documents as genuine or AI-generated via government stamp detection, document structure analysis, visual artifact inspection, and metadata consistency checks.
 
-### Open source
+  **AML transaction monitoring**
+  Velocity, structuring, and counterparty-pattern anomaly detection over event-driven pipelines, with flagging for human review.
 
-- [`mudler/LocalAI#9411`](https://github.com/mudler/LocalAI/pull/9411) — `fix(backend-monitor)`: accept `model` as a query parameter so the endpoint is Swagger/OpenAPI-compatible. **Merged.**
+  **Biometric identity**
+  Multi-modal matching across face, fingerprint, and contactless fingerprint acquisition with multi-provider failover and government-database verification.
+
+  ---
+
+  ### Open source
+  
+  | Repo | PR | Description | Status |
+  |------|----|-------------|--------|
+  | [mudler/LocalAI](https://github.com/mudler/LocalAI) | [#9411](https://github.com/mudler/LocalAI/pull/9411) | `fix(backend-monitor)`: accept `model` as query parameter for Swagger/OpenAPI compatibility | Open — awaiting review
+  |
+  | [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | [#808](https://github.com/mark3labs/mcp-go/pull/808) | `feat(oauth)`: extract Protected Resource Metadata URL from `WWW-Authenticate` per RFC 9728 §5.1 | Open —
+  awaiting review |
+ 
+  ---
+
+  ### Selected projects
+  
+  **[AthenaIntelligentLMS](https://github.com/aktechkenya/AthenaIntelligentLMS)**
+  Intelligent lending platform: 11 Spring Boot microservices, React UI, RabbitMQ, PostgreSQL.
+
+  **[AthenaCreditScore](https://github.com/aktech-io/AthenaCreditScore)**
+  AI credit scoring for African SMEs: LightGBM model, rule-based scorecard, and LLM overlay integrated with TransUnion and Metropol CRBs.
+
+  **[spring-monitoring-demo](https://github.com/aktechkenya/spring-monitoring-demo)**
+  Spring Boot observability reference: Prometheus and Grafana.
+
+  ---
+  
+  ### Stack
+  
+  `Java` `Python` `Go` `Spring Boot` `PostgreSQL` `Redis` `Kafka` `RabbitMQ` `Docker` `Kubernetes` `Terraform` `GCP` `OCI` `LangChain` `LangGraph`
+ 
+  ---
+
+  [LinkedIn](https://www.linkedin.com/in/dennis-adira/) · dennisadira@gmail.com
 
 
-### Selected public projects
-
-- [**AthenaIntelligentLMS**](https://github.com/aktechkenya/AthenaIntelligentLMS) — intelligent lending platform: 11 Spring Boot services, React UI, RabbitMQ, PostgreSQL.
-- [**AthenaCreditScore**](https://github.com/aktech-io/AthenaCreditScore) — AI credit-scoring platform for African SMEs: LightGBM + rule scorecard + LLM overlay (TransUnion + Metropol CRBs).
-- [**spring-monitoring-demo**](https://github.com/aktechkenya/spring-monitoring-demo) — Spring Boot + Prometheus/Grafana observability reference.
-
-### Stack
-
-Python · Java · Go · PostgreSQL · Redis · Kafka · RabbitMQ · GCP · OCI · Kubernetes · Terraform
-
-### Contact
-
-[LinkedIn](https://www.linkedin.com/in/dennis-adira/) · dennisadira@gmail.com · Nairobi, Kenya
