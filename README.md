@@ -1,56 +1,30 @@
+## Adira Denis Muhando
+
+Engineering leader building production AI and fintech platforms · Nairobi
+
+I work across the stack that puts ML into production — backend services, event-driven pipelines, infrastructure, and the security and observability underneath.
+
 ---
-  ## Adira Denis Muhando
 
-  I build production AI and financial systems. My focus is credit intelligence, identity infrastructure, fraud detection, and AML monitoring.
-  
-  ---
+### Open source
 
-  ### What I build
+**[mudler/LocalAI](https://github.com/mudler/LocalAI)** — reworked the backend-monitoring API to be REST-correct: query-parameter model selector, restored the Swagger UI, and regenerated the OpenAPI spec without breaking existing callers.
 
-  **Credit intelligence**
-  Bank-statement ingestion and feature extraction into a calibrated LightGBM scoring model, with an LLM overlay for qualitative analysis where numbers fall short.
+**[spring-projects/spring-ai](https://github.com/spring-projects/spring-ai)** — extended the Ollama embedding integration with model-loading controls (context-window size, FP16 KV cache, full-logits output). Merged.
 
-  **KYC fraud detection**
-  Classifies submitted identity documents as genuine or AI-generated via government stamp detection, document structure analysis, visual artifact inspection, and metadata consistency checks.
+---
 
-  **AML transaction monitoring**
-  Velocity, structuring, and counterparty-pattern anomaly detection over event-driven pipelines, with flagging for human review.
+### Stack
 
-  **Biometric identity**
-  Multi-modal matching across face, fingerprint, and contactless fingerprint acquisition with multi-provider failover and government-database verification.
+**Languages** `Java` `Python` `Go` `SQL` `Bash`
+**Backend** `Spring Boot` `REST APIs` `Microservices` `Event-driven` `Kong`
+**Data** `PostgreSQL` `Oracle` `MongoDB` `Redis` `Kafka` `RabbitMQ`
+**AI / ML** `LangChain` `LangGraph` `RAG` `Embeddings` `Vector DBs` `LightGBM` `OpenAI` `Anthropic`
+**Infra / IaC** `Docker` `Kubernetes` `Terraform` `Ansible` `GCP` `OCI` `AWS`
+**CI / CD** `GitHub Actions` `Jenkins` `Testcontainers` `Contract testing` `Git`
+**Security** `OAuth2 / JWT` `RBAC` `HashiCorp Vault`
+**Observability** `Prometheus` `Grafana` `ELK` `Splunk`
 
-  ---
+---
 
-  ### Open source
-  
- **[mudler/LocalAI](https://github.com/mudler/LocalAI)**
-  Local inference server for running open-source LLMs and AI models privately, without cloud dependencies.
-
-  **[mark3labs/mcp-go](https://github.com/mark3labs/mcp-go)**
-  Go SDK for building Model Context Protocol servers and clients, enabling LLM tool integration.
-
- 
-  ---
-
-  ### Selected projects
-  
-  **[AthenaIntelligentLMS](https://github.com/aktechkenya/AthenaIntelligentLMS)**
-  Intelligent lending platform: 11 Spring Boot microservices, React UI, RabbitMQ, PostgreSQL.
-
-  **[AthenaCreditScore](https://github.com/aktech-io/AthenaCreditScore)**
-  AI credit scoring for African SMEs: LightGBM model, rule-based scorecard, and LLM overlay integrated with TransUnion and Metropol CRBs.
-
-  **[spring-monitoring-demo](https://github.com/aktechkenya/spring-monitoring-demo)**
-  Spring Boot observability reference: Prometheus and Grafana.
-
-  ---
-  
-  ### Stack
-  
-  `Java` `Python` `Go` `Spring Boot` `PostgreSQL` `Redis` `Kafka` `RabbitMQ` `Docker` `Kubernetes` `Terraform` `GCP` `OCI` `LangChain` `LangGraph`
- 
-  ---
-
-  [LinkedIn](https://www.linkedin.com/in/dennis-adira/) · dennisadira@gmail.com
-
-
+[LinkedIn](https://www.linkedin.com/in/dennis-adira/) · dennisadira@gmail.com
