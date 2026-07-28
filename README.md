@@ -1,4 +1,4 @@
-## Adira Denis Muhando
+## Adira Denis
 
 Engineering leader building production AI and fintech platforms · Nairobi
 
